@@ -1,0 +1,63 @@
+.tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid darkgray;
+  background-color: gray;
+  border-radius: 5px;
+  margin: 10px;
+  transition: transform 0.3s; /* Dodanie ogólnej animacji dla kafelka */
+}
+
+.tile:hover {
+  transform: scale(1.05); /* Powiększenie kafelka po najechaniu myszką */
+}
+
+.tile-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  color: white;
+  transition: transform 0.3s; /* Dodanie animacji transformacji dla obrazka */
+}
+
+.tile-image:hover {
+  transform: rotate(360deg); /* Obrót obrazka po najechaniu myszką */
+}
+
+.tile-content {
+  text-align: center;
+}
+
+.tile-heading {
+  margin: 0;
+}
+
+.tile-text {
+  margin: 10px 0;
+}
+
+.tile-button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s; /* Dodanie animacji dla przycisku */
+}
+
+.tile-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05); /* Powiększenie przycisku po najechaniu myszką */
+}
+
+.tile-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  height: 60vh;
+}

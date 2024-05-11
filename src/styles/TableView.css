@@ -1,0 +1,42 @@
+/* Resetowanie domyślnych stylów dla tabeli */
+table {
+    width: 60vw;
+    border-collapse: collapse;
+  }
+  
+  /* Stylowanie nagłówka tabeli */
+/* Stylowanie nagłówka tabeli */
+thead {
+    background-color: #1976d2; /* Kolor tła nagłówka */
+    color: white; /* Kolor tekstu nagłówka */
+  }
+  
+  /* Stylowanie komórek nagłówka */
+  th {
+    padding: 12px;
+    font-weight: bold;
+    text-align: center; /* Wyśrodkowanie tekstu w komórce nagłówka */
+  }
+  
+  /* Stylowanie wierszy tabeli */
+  tr {
+    border-bottom: 1px solid #dddddd; /* Linia oddzielająca wiersze */
+  }
+  
+  /* Stylowanie komórek wiersza */
+  td {
+    padding: 22px;
+    text-align: center; /* Wyśrodkowanie tekstu w komórce wiersza */
+  }
+  
+  /* Zmiana koloru wiersza po najechaniu myszką */
+  tr:hover {
+    background-color: #262729; /* Kolor tła wiersza po najechaniu myszką */
+  }
+  
+  /* Stylowanie pierwszego wiersza */
+  tr:first-child {
+    font-weight: bold; /* Pogrubienie tekstu w pierwszym wierszu */
+  }
+  
+  
